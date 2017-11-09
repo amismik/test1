@@ -3,32 +3,32 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 148,
+      "count": 12476,
       "max": [
-        4421,
-        3609.60693359375,
-        4421
+        112.40286254882812,
+        105.06178283691406,
+        125.08057403564453
       ],
       "min": [
-        -4421,
-        -3609.60693359375,
-        -4421
+        -112.40286254882812,
+        -105.06178283691406,
+        -125.08057403564453
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
-      "byteOffset": 1776,
+      "byteOffset": 149712,
       "componentType": 5126,
-      "count": 148,
+      "count": 12476,
       "max": [
-        1,
-        1,
+        0.99933958053588867,
+        0.99999910593032837,
         1
       ],
       "min": [
-        -1,
-        -1,
+        -0.99933958053588867,
+        -0.99999910593032837,
         -1
       ],
       "type": "VEC3"
@@ -36,93 +36,27 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 148,
+      "count": 12476,
       "max": [
         1,
-        0,
-        1,
+        0.94634115695953369,
+        0.99998587369918823,
         1
       ],
       "min": [
-        -1,
-        0,
-        -1,
-        1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 0,
-      "componentType": 5125,
-      "count": 432,
-      "max": [
-        147
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 3552,
-      "componentType": 5126,
-      "count": 24,
-      "max": [
-        5000,
-        2118.610595703125,
-        5000
-      ],
-      "min": [
-        -5000,
-        -2118.610595703125,
-        -5000
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 3840,
-      "componentType": 5126,
-      "count": 24,
-      "max": [
-        1,
-        1,
-        1
-      ],
-      "min": [
-        -1,
-        -1,
+        -0.43566811084747314,
+        -0.94634121656417847,
+        -0.99998581409454346,
         -1
       ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 2368,
-      "componentType": 5126,
-      "count": 24,
-      "max": [
-        1,
-        0,
-        1,
-        1
-      ],
-      "min": [
-        -1,
-        0,
-        -1,
-        1
-      ],
       "type": "VEC4"
     },
     {
       "bufferView": 0,
-      "byteOffset": 1728,
       "componentType": 5125,
-      "count": 36,
+      "count": 74928,
       "max": [
-        23
+        12475
       ],
       "min": [
         0
@@ -137,23 +71,23 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 1872,
+      "byteLength": 299712,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 4128,
-      "byteOffset": 1872,
+      "byteLength": 299424,
+      "byteOffset": 299712,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 2752,
-      "byteOffset": 6000,
+      "byteLength": 199616,
+      "byteOffset": 599136,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -161,7 +95,7 @@
   ],
   "buffers": [
     {
-      "byteLength": 8752,
+      "byteLength": 798752,
       "uri": "scene.bin"
     }
   ],
@@ -173,22 +107,22 @@
         0,
         0
       ],
-      "name": "Mat",
+      "name": "Scene - Root",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
-          0,
-          0.066666699999999995,
+          1,
+          1,
           1
         ],
         "metallicFactor": 0,
-        "roughnessFactor": 0.95243171540000005
+        "roughnessFactor": 0.59999999999999998
       }
     }
   ],
   "meshes": [
     {
-      "name": "Cylinder_Mat_0",
+      "name": "Metaball__0",
       "primitives": [
         {
           "attributes": {
@@ -197,21 +131,6 @@
             "TANGENT": 2
           },
           "indices": 3,
-          "material": 0,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "Cube_Mat_0",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 5,
-            "POSITION": 4,
-            "TANGENT": 6
-          },
-          "indices": 7,
           "material": 0,
           "mode": 4
         }
@@ -259,12 +178,11 @@
         0,
         1
       ],
-      "name": "Untitled.c4d.fbx"
+      "name": "ufo.c4d.fbx"
     },
     {
       "children": [
-        4,
-        7
+        4
       ],
       "name": "RootNode"
     },
@@ -272,67 +190,15 @@
       "children": [
         6
       ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        11424.294921875,
-        995.970458984375,
-        0,
-        1
-      ],
-      "name": "Cylinder"
+      "name": "Metaball"
     },
     {
       "mesh": 0,
-      "name": "Cylinder_Mat_0"
+      "name": "Metaball__0"
     },
     {
       "children": [
         5
-      ],
-      "name": "Geode"
-    },
-    {
-      "children": [
-        9
-      ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        -3162.556884765625,
-        0,
-        1
-      ],
-      "name": "Cube"
-    },
-    {
-      "mesh": 1,
-      "name": "Cube_Mat_0"
-    },
-    {
-      "children": [
-        8
       ],
       "name": "Geode"
     }
