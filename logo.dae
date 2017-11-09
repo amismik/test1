@@ -4,8 +4,8 @@
 		<contributor>
 			<authoring_tool>CINEMA4D 18.057 COLLADA Exporter</authoring_tool>
 		</contributor>
-		<created>2017-11-09T14:52:49Z</created>
-		<modified>2017-11-09T14:52:49Z</modified>
+		<created>2017-11-09T14:54:34Z</created>
+		<modified>2017-11-09T14:54:34Z</modified>
 		<unit meter="0.01" name="centimeter"/>
 		<up_axis>Y_UP</up_axis>
 	</asset>
@@ -1194,7 +1194,7 @@
 				<translate sid="translate">0 0 -0</translate>
 				<rotate sid="rotateY">0 1 0 -0</rotate>
 				<rotate sid="rotateX">1 0 0 0</rotate>
-				<rotate sid="rotateZ">0 0 1 -0</rotate>
+				<rotate sid="rotateZ">0 0 1 -90</rotate>
 				<scale sid="scale">1 1 1</scale>
 				<node id="ID3" name="Untitled-1">
 					<translate sid="translate">0 0 -0</translate>
