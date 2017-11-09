@@ -75,6 +75,25 @@
             "uri" : "ufo.bin"
         }
     ], 
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                0.8640000472068792, 
+                0.8640000472068792, 
+                0.8640000472068792
+            ], 
+            "name" : "Material.001", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6400000190734865, 
+                    0.6400000190734865, 
+                    0.6400000190734865, 
+                    1.0
+                ], 
+                "metallicFactor" : 0.0
+            }
+        }
+    ], 
     "meshes" : [
         {
             "name" : "MetaballShape", 
@@ -84,7 +103,8 @@
                         "NORMAL" : 2, 
                         "POSITION" : 1
                     }, 
-                    "indices" : 0
+                    "indices" : 0, 
+                    "material" : 0
                 }
             ]
         }
